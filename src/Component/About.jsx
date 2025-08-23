@@ -1,5 +1,9 @@
 import React from "react";
 import image from "../assets/profile.jpg"; 
+import resume from "../assets/resume.jpg";
+import resumepdf from "../assets/KumkumSahuResume.pdf.pdf";
+import { IoMdDownload } from "react-icons/io";
+import { FaRegEye } from "react-icons/fa";
 
 const skills = [
   { name: "HTML", percentage: 80 },
@@ -76,6 +80,45 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* portFolio */}
+           <div className="flex justify-center items-center w-[80%] mx-auto my-12 ">
+  <div className="rounded-2xl p-6 flex flex-col items-center md:flex-row gap-6 md:gap-52">
+    
+    {/* Resume Image Preview */}
+    <div className="w-40 h-52 overflow-hidden rounded-lg">
+      <img 
+        src={resume} 
+        alt="Resume preview" 
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+
+    {/* Resume Buttons */}
+    <div className="flex flex-col gap-3 text-center ">
+      <h2 className="text-xl font-semibold text-white">My Resume</h2>
+      <p className="text-gray-300 text-sm">You can view or download my resume below.</p>
+      
+      <div className="flex gap-4 mt-2">
+        <a 
+          href={resumepdf} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="px-5 py-2 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700  flex items-center gap-2"
+        >
+          View Resume <FaRegEye className="animate-pulse"/>
+        </a>
+        <a 
+          href={resumepdf} 
+          download 
+          className="px-5 py-2 bg-green-600 text-white rounded-xl shadow-md hover:bg-green-700  flex items-center gap-2"
+        >
+          Download <IoMdDownload className="animate-bounce"/> 
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
     </section>
   );
 };

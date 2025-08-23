@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
-import emailjs from 'emailjs-com'
+
 
 const Contact = () => {
     const [formData, setformData] = useState({
@@ -142,6 +142,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <p className="pt-4 pl-50 text-red-600">currently the contact form is not working you can contact me on my email address : <a href="mailto:kumkumsahu1505@gmail.com" target="_blank" className="underline">kumkumsahu1505@gmail.com</a> </p>
         </section>
     );
 };

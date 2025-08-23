@@ -1,36 +1,37 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import appleVison from "../assets/appleVision.avif"
 
 const projects = [
   {
     title: "FitClub Gym Website",
     description:
-      "A modern fitness website with responsive design, smooth animations, and membership features.",
+      "A modern fitness website with responsive design, and membership features.",
     image:
       "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?auto=format&fit=crop&w=1470&q=80",
     tags: ["React", "Tailwind CSS", "JavaScript"],
-    liveLink: "https://your-fitclub-live-link.com",
-    githubLink: "https://github.com/yourusername/fitclub",
+    liveLink: "fitclub-mauve.vercel.app",
+    githubLink: "https://github.com/kumkumsahu1505/Fitclub",
   },
   {
     title: "Apple Vision",
     description:
       "A sleek product showcase inspired by Apple Vision Pro with smooth animations and 3D effects.",
     image:
-      "https://images.unsplash.com/photo-1696287578888-bf4a3f6a40f1?auto=format&fit=crop&w=1470&q=80",
-    tags: ["React", "Framer Motion", "Tailwind CSS"],
-    liveLink: "https://your-apple-vision-live-link.com",
-    githubLink: "https://github.com/yourusername/apple-vision",
+      "https://images.unsplash.com/photo-1580948717721-b653147d26dd?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Html","Css" ,"Gsap"],
+    liveLink: "https://kumkumsahu1505.github.io/VisionPro/",
+    githubLink: "https://github.com/kumkumsahu1505/VisionPro",
   },
   {
     title: "Employee Management System",
     description:
-      "A web application to manage employees, attendance, and reports with authentication.",
+      "A web application to manage employees and admin interaction for the task assignment , and keep the track of assigned task with authentication.",
     image:
       "https://images.unsplash.com/photo-1557425493-6f90ae4659fc?auto=format&fit=crop&w=1470&q=80",
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["React","Tailwind csss", "Node.js", "MongoDB"],
     liveLink: "https://your-ems-live-link.com",
-    githubLink: "https://github.com/yourusername/employee-management-system",
+    githubLink: "https://github.com/kumkumsahu1505/Employee-Management-System",
   },
   {
     title: "Duo Studio",
@@ -39,18 +40,18 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=1470&q=80",
     tags: ["React", "GSAP", "Tailwind CSS"],
-    liveLink: "https://your-duo-studio-live-link.com",
-    githubLink: "https://github.com/yourusername/duo-studio",
+    liveLink: "https://kumkumsahu1505.github.io/DuoStudio/",
+    githubLink: "https://github.com/kumkumsahu1505/DuoStudio",
   },
   {
     title: "URL Shortener",
     description:
       "A simple and fast tool to shorten long URLs with analytics tracking.",
     image:
-      "https://images.unsplash.com/photo-1590595903436-4d2b91c6ed0c?auto=format&fit=crop&w=1470&q=80",
-    tags: ["Node.js", "Express", "MongoDB"],
+      "https://images.pexels.com/photos/6937932/pexels-photo-6937932.jpeg",
+    tags: ["Node.js", "Express", "MongoDB","Recat js"],
     liveLink: "https://your-url-shortener-live-link.com",
-    githubLink: "https://github.com/yourusername/url-shortener",
+    githubLink: "https://github.com/kumkumsahu1505/urlShortner",
   },
   {
     title: "CRUD Operation App",
@@ -60,7 +61,7 @@ const projects = [
       "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1470&q=80",
     tags: ["React", "Node.js", "Express"],
     liveLink: "https://your-crud-app-live-link.com",
-    githubLink: "https://github.com/yourusername/crud-operation",
+    githubLink: "https://github.com/kumkumsahu1505/CRUD_Operation_AXIOS",
   },
 ];
 
