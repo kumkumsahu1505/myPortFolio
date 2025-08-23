@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../assets/profile.jpg"; 
 import resume from "../assets/resume.jpg";
-import resumepdf from "../assets/KumkumSahuResume.pdf.pdf";
+import resumepdf from "../assets/KumkumSahuResume12.pdf";
 import { IoMdDownload } from "react-icons/io";
 import { FaRegEye } from "react-icons/fa";
 
