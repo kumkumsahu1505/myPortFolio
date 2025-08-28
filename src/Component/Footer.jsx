@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLaptopCode } from "react-icons/fa";
-
+import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6 ">
@@ -15,36 +15,36 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div className="flex space-x-6 text-sm">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="hover:text-yellow-400 transition-colors duration-300"
             >
               Home
-            </a>
-            <a
-              href="/about"
+            </Link>
+            <Link
+              to="/about"
               className="hover:text-yellow-400 transition-colors duration-300"
             >
               About
-            </a>
-            <a
-              href="/services"
+            </Link>
+            <Link
+              to="/services"
               className="hover:text-yellow-400 transition-colors duration-300"
             >
               Services
-            </a>
-            <a
-              href="/projects"
+            </Link>
+            <Link
+              to="/projects"
               className="hover:text-yellow-400 transition-colors duration-300"
             >
               Projects
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="hover:text-yellow-400 transition-colors duration-300"
             >
               Contact
-            </a>
+            </Link>
           </div>
         </div>
 
