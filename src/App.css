@@ -1,5 +1,6 @@
 @import "tailwindcss";
 *{
-  scroll-behavior:smooth;
+scroll-behavior:smooth;
 scrollbar-width: none;
+box-sizing: border-box;
 }
