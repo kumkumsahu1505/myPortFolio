@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../assets/profile.jpg"; 
 import resume from "../assets/resume.jpg";
-import resumepdf from "../assets/KumkumSahuResume12.pdf";
+import resumepdf from "../assets/kumkumResume.pdf";
 import { IoMdDownload } from "react-icons/io";
 import { FaRegEye } from "react-icons/fa";
 
@@ -14,6 +14,12 @@ const skills = [
   { name: "SQL", percentage: 75 },
   { name: "MongoDB", percentage: 60 },
   { name: "Java", percentage: 85 },
+   { name: "JBBC", percentage: 75 },
+   { name: "Servlet/jsp", percentage: 70 },
+   { name: "Hibernate", percentage: 80 },
+   { name: "Spring", percentage: 85 },
+   { name: "Spring-Boot", percentage: 85 },
+   { name: "Spring-Security", percentage: 85 },
 ];
 
 const About = () => {

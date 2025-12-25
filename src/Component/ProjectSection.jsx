@@ -4,6 +4,39 @@ import appleVison from "../assets/appleVision.avif"
 
 const projects = [
   {
+    title: "Cashify Web Application",
+    description:
+      "Built a platform where users can sell or exchange old smartphones by estimating device value, generating quotes, and managing pickup requests.",
+    image:
+      "https://images.jdmagicbox.com/v2/comp/mumbai/v8/022pxx22.xx22.180927140014.f6v8/catalogue/cashify-andheri-east-mumbai-1ywdfibexk.jpg",
+    tags: ["Java", "Spring","Spring-Boot","Hibernate","JDBC","Servlet/jsp","React", "Tailwind CSS", "JavaScript"],
+    liveLink: "",
+    githubLink: "https://github.com/kumkumsahu1505/Cashify",
+  },
+
+  {
+    title: "Entry Manager",
+    description:
+      "Created a full-stack CRUD dashboard where users can insert, update, view, and delete records, with data securely stored in MySQL.",
+    image:
+      "https://images.unsplash.com/photo-1558959357-685f9c7ace7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Java", "Spring","Spring-Boot","Spring Data-Jpa","React", "Tailwind CSS", "JavaScript"],
+    liveLink: "",
+    githubLink: "https://github.com/kumkumsahu1505/Entry_Manager",
+  },
+
+  {
+    title: "Question Bank",
+    description:
+      "Developed a REST-based system to upload questions (CSV), store them in a database, and manage search, filter, and retrieval for exams.",
+    image:
+      "https://images.unsplash.com/photo-1599658880436-c61792e70672?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Java", "Spring","Spring-Boot","Spring Data-Jpa","React", "Tailwind CSS", "JavaScript"],
+    liveLink: "",
+    githubLink: "https://github.com/kumkumsahu1505/Question_Bank",
+  },
+
+  {
     title: "FitClub Gym Website",
     description:
       "A modern fitness website with responsive design, and membership features.",
@@ -13,6 +46,8 @@ const projects = [
     liveLink: "fitclub-mauve.vercel.app",
     githubLink: "https://github.com/kumkumsahu1505/Fitclub",
   },
+
+
   {
     title: "Apple Vision",
     description:
