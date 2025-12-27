@@ -14,7 +14,7 @@ const skills = [
   { name: "SQL", percentage: 75 },
   { name: "MongoDB", percentage: 60 },
   { name: "Java", percentage: 85 },
-   { name: "JBBC", percentage: 75 },
+   { name: "JDBC", percentage: 75 },
    { name: "Servlet/jsp", percentage: 70 },
    { name: "Hibernate", percentage: 80 },
    { name: "Spring", percentage: 85 },
